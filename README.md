@@ -1,3 +1,8 @@
+## Interactive Canary Islands maps
+
+- [Tenerife priority areas map](https://jfolske.github.io/canaries_maps/tenerife_priority_areas.html)
+- [Gran Canaria priority areas map](https://jfolske.github.io/canaries_maps/gran_canaria_priority_areas.html)
+
 # Canaries Maps ReadMe
 Interactive HTML maps of Gran Canaria and Tenerife priority areas for exploration
 #### What the project does:
@@ -11,7 +16,3 @@ One-time, unsupported
 #### Who maintains and contributes to the project: 
 Jane
 
-## Interactive Canary Islands maps
-
-- [Tenerife priority areas map](https://jfolske.github.io/canaries_maps/tenerife_priority_areas.html)
-- [Gran Canaria priority areas map](https://jfolske.github.io/canaries_maps/gran_canaria_priority_areas.html)
