@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_38b97b3277f3369591f12c18ebafcd2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_38b97b3277f3369591f12c18ebafcd2a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_38b97b3277f3369591f12c18ebafcd2a = L.map(
+                "map_38b97b3277f3369591f12c18ebafcd2a",
+                {
+                    center: [27.76, -15.6],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5e78c86e9c49a46b68620510ce1bb4f9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5e78c86e9c49a46b68620510ce1bb4f9.addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var marker_ab73626ec1a164900f521df2f20e7c5e = L.marker(
+                [27.7399, -15.597],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+        var popup_5da0b1aa129e2f72ad3c9577d8f3ce4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_48bf1a41817a665ada66f35647360cd9 = $(`<div id="html_48bf1a41817a665ada66f35647360cd9" style="width: 100.0%; height: 100.0%;">     <b>1. Meloneras / low‑lying Maspalomas (Gran Canaria)</b><br>     Flat seafront promenade with bars, hotel lounges and some live music,     but generally calmer and less “party‑heavy” than Playa del Inglés,     so night noise is more manageable.<br>     Very close to Hospitales San Roque Maspalomas in Meloneras; most Meloneras or     low‑lying Maspalomas complexes are within a short taxi ride of a full hospital.<br>     Driving distance from Gran Canaria Airport (LPA) is about 33 km and usually takes around 25–30 minutes by car.<br>     <br>     <a href="https://localguidegrancanaria.com/en/meloneras/" target="_blank">       Meloneras: what to see & where to eat (area‑specific article)     </a>     </div>`)[0];
+                popup_5da0b1aa129e2f72ad3c9577d8f3ce4f.setContent(html_48bf1a41817a665ada66f35647360cd9);
+            
+        
+
+        marker_ab73626ec1a164900f521df2f20e7c5e.bindPopup(popup_5da0b1aa129e2f72ad3c9577d8f3ce4f)
+        ;
+
+        
+    
+    
+            marker_ab73626ec1a164900f521df2f20e7c5e.bindTooltip(
+                `<div>
+                     1. Meloneras / low‑lying Maspalomas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb66a4f7d5fae61b88b5bcf36b94d8ea = L.marker(
+                [27.7399, -15.597],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var div_icon_f5faa5943f41bbeabcac19003855d941 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 22px;\n                font-weight: bold;\n                color: #2A81CB;\n                text-shadow: 1px 1px 2px white;\n            \"\u003e\n                1\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_fb66a4f7d5fae61b88b5bcf36b94d8ea.setIcon(div_icon_f5faa5943f41bbeabcac19003855d941);
+            
+    
+            var marker_965ef3b809a8c62e1b714e56df49cfa7 = L.marker(
+                [27.8154, -15.7597],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+        var popup_14071c996616eb608660cfb1fa38a718 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_25ff60bc57bf8666791d2b4d6853fe8d = $(`<div id="html_25ff60bc57bf8666791d2b4d6853fe8d" style="width: 100.0%; height: 100.0%;">     <b>3. Puerto de Mogán harbour / beach level (Gran Canaria)</b><br>     Very walkable, flat harbour and beach area with bars and restaurants offering low‑key live music;     overall village‑like and quiet at night once you step back from the front.<br>     Choose harbour/beach‑level or elevator‑served buildings (not hillside units) to avoid climbs;     taxis connect along the coast to the Maspalomas hospital zone within your desired time window.<br>     Driving distance from Gran Canaria Airport (LPA) is about 53–56 km and typically takes 40–50 minutes by car along the coast.<br>     <br>     <a href="https://localguidegrancanaria.com/en/puerto-de-mogan/" target="_blank">       Puerto de Mogán: what to see & do (area‑specific article)     </a>     </div>`)[0];
+                popup_14071c996616eb608660cfb1fa38a718.setContent(html_25ff60bc57bf8666791d2b4d6853fe8d);
+            
+        
+
+        marker_965ef3b809a8c62e1b714e56df49cfa7.bindPopup(popup_14071c996616eb608660cfb1fa38a718)
+        ;
+
+        
+    
+    
+            marker_965ef3b809a8c62e1b714e56df49cfa7.bindTooltip(
+                `<div>
+                     3. Puerto de Mogán harbour / beach level
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d19809038241d8be95aae2a7f14ee0d = L.marker(
+                [27.8154, -15.7597],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var div_icon_6e93718cb17a608aac200695d8dd43ba = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 22px;\n                font-weight: bold;\n                color: #2A81CB;\n                text-shadow: 1px 1px 2px white;\n            \"\u003e\n                3\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_6d19809038241d8be95aae2a7f14ee0d.setIcon(div_icon_6e93718cb17a608aac200695d8dd43ba);
+            
+    
+            var marker_ca0676a575e365a861868c864585aeda = L.marker(
+                [27.756, -15.5715],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+        var popup_a6f6a9cabc20f9411b272843e7f838bc = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_f6742c9daaca68b3212b0e1cad972696 = $(`<div id="html_f6742c9daaca68b3212b0e1cad972696" style="width: 100.0%; height: 100.0%;">     <b>Playa del Inglés beachfront (context)</b><br>     Livelier resort with many bars and nightlife; suitable for visits,     but you prefer quieter Meloneras / low‑lying Maspalomas for sleeping.<br>     Driving distance from Gran Canaria Airport (LPA) is roughly 33 km and takes around 25–35 minutes by car.<br>     <br>     <a href="https://www.alwaysonboard.it/en/where-to-stay-in-gran-canaria-guide/#playa-del-ingles"        target="_blank">       Section focusing on Playa del Inglés (area subsection in 2025 guide)     </a>     </div>`)[0];
+                popup_a6f6a9cabc20f9411b272843e7f838bc.setContent(html_f6742c9daaca68b3212b0e1cad972696);
+            
+        
+
+        marker_ca0676a575e365a861868c864585aeda.bindPopup(popup_a6f6a9cabc20f9411b272843e7f838bc)
+        ;
+
+        
+    
+    
+            marker_ca0676a575e365a861868c864585aeda.bindTooltip(
+                `<div>
+                     Playa del Inglés (context)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_73b92081c71ca8f9529f132cf9b4ffbb = L.marker(
+                [27.7392, -15.6022],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var icon_5b9bdf6ff7d836800e141ffc50333e38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_739afffa99c20b5ba5eaed9361e77a9b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ccf15782d82bc9297514ec2484293c7c = $(`<div id="html_ccf15782d82bc9297514ec2484293c7c" style="width: 100.0%; height: 100.0%;">     <b>Hospitales San Roque Maspalomas</b><br>     Full hospital serving the south of Gran Canaria, very close to Meloneras / Maspalomas.     </div>`)[0];
+                popup_739afffa99c20b5ba5eaed9361e77a9b.setContent(html_ccf15782d82bc9297514ec2484293c7c);
+            
+        
+
+        marker_73b92081c71ca8f9529f132cf9b4ffbb.bindPopup(popup_739afffa99c20b5ba5eaed9361e77a9b)
+        ;
+
+        
+    
+    
+            marker_73b92081c71ca8f9529f132cf9b4ffbb.bindTooltip(
+                `<div>
+                     San Roque Maspalomas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_73b92081c71ca8f9529f132cf9b4ffbb.setIcon(icon_5b9bdf6ff7d836800e141ffc50333e38);
+            
+    
+            var marker_693437b3d3169e22e1eed145086c4548 = L.marker(
+                [27.786, -15.71],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var icon_246bed164befef2ced2773336a35cd0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3a23abb627153348dcc9f93d43a5f5b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dfdd8a28d1895dc8689049d0275083b7 = $(`<div id="html_dfdd8a28d1895dc8689049d0275083b7" style="width: 100.0%; height: 100.0%;">     <b>Puerto Rico Medical Center</b><br>     Private medical centre in the Mogán coastal area (Puerto Rico / Mogán).     </div>`)[0];
+                popup_d3a23abb627153348dcc9f93d43a5f5b.setContent(html_dfdd8a28d1895dc8689049d0275083b7);
+            
+        
+
+        marker_693437b3d3169e22e1eed145086c4548.bindPopup(popup_d3a23abb627153348dcc9f93d43a5f5b)
+        ;
+
+        
+    
+    
+            marker_693437b3d3169e22e1eed145086c4548.bindTooltip(
+                `<div>
+                     Puerto Rico Medical Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_693437b3d3169e22e1eed145086c4548.setIcon(icon_246bed164befef2ced2773336a35cd0d);
+            
+    
+            var marker_a2e7a572b0f5914a24a17aaedf7f7768 = L.marker(
+                [27.9328, -15.3867],
+                {
+}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+            var icon_8466af4d72f0b8e96c96c1da7230d6cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5e3cb563f3392128b3c619951830238 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_0d4f10308708e53334e109a03b3c9464 = $(`<div id="html_0d4f10308708e53334e109a03b3c9464" style="width: 100.0%; height: 100.0%;">     <b>Gran Canaria Airport (LPA)</b><br>     Main international airport for Gran Canaria; most likely arrival point for Meloneras / Maspalomas and Puerto de Mogán.     </div>`)[0];
+                popup_d5e3cb563f3392128b3c619951830238.setContent(html_0d4f10308708e53334e109a03b3c9464);
+            
+        
+
+        marker_a2e7a572b0f5914a24a17aaedf7f7768.bindPopup(popup_d5e3cb563f3392128b3c619951830238)
+        ;
+
+        
+    
+    
+            marker_a2e7a572b0f5914a24a17aaedf7f7768.bindTooltip(
+                `<div>
+                     Gran Canaria Airport (LPA)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a2e7a572b0f5914a24a17aaedf7f7768.setIcon(icon_8466af4d72f0b8e96c96c1da7230d6cf);
+            
+    
+            var rectangle_594025da49f6ad66944e95a278580c24 = L.rectangle(
+                [[27.735, -15.61], [27.765, -15.57]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+        var popup_4d93dcf17c6913cf3796de4a487ea198 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3acb8fe88a15acb1e678eabf13ed2801 = $(`<div id="html_3acb8fe88a15acb1e678eabf13ed2801" style="width: 100.0%; height: 100.0%;">Priority flat zone: Meloneras / low Maspalomas.</div>`)[0];
+                popup_4d93dcf17c6913cf3796de4a487ea198.setContent(html_3acb8fe88a15acb1e678eabf13ed2801);
+            
+        
+
+        rectangle_594025da49f6ad66944e95a278580c24.bindPopup(popup_4d93dcf17c6913cf3796de4a487ea198)
+        ;
+
+        
+    
+    
+            var rectangle_b8443aae7fc800cc2319d571cbf210e8 = L.rectangle(
+                [[27.81, -15.765], [27.82, -15.752]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38b97b3277f3369591f12c18ebafcd2a);
+        
+    
+        var popup_1a9aa8f1f017f9469cb10a1c759d0076 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2cb32e593f9f7704611bd6c34e7e8f5 = $(`<div id="html_a2cb32e593f9f7704611bd6c34e7e8f5" style="width: 100.0%; height: 100.0%;">Priority flat zone: Puerto de Mogán harbour & beach level.</div>`)[0];
+                popup_1a9aa8f1f017f9469cb10a1c759d0076.setContent(html_a2cb32e593f9f7704611bd6c34e7e8f5);
+            
+        
+
+        rectangle_b8443aae7fc800cc2319d571cbf210e8.bindPopup(popup_1a9aa8f1f017f9469cb10a1c759d0076)
+        ;
+
+        
+    
+</script>
+</html>

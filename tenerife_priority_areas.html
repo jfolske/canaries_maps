@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ada12abf16f6686f65fc05aeba6c4f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7ada12abf16f6686f65fc05aeba6c4f2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7ada12abf16f6686f65fc05aeba6c4f2 = L.map(
+                "map_7ada12abf16f6686f65fc05aeba6c4f2",
+                {
+                    center: [28.06, -16.73],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f2327c9ae3d6a883ecf62277ae96e49 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8f2327c9ae3d6a883ecf62277ae96e49.addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var marker_010d95e92abeae4a86cf270daa7f54a5 = L.marker(
+                [28.0845, -16.736],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+        var popup_700b8e025b15b57c3261f3fac81f5a38 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b67ad64dd3330ec22029c43a9e74e79e = $(`<div id="html_b67ad64dd3330ec22029c43a9e74e79e" style="width: 100.0%; height: 100.0%;">     <b>2. Costa Adeje – Fañabé / Playa del Duque seafront (Tenerife)</b><br>     Flat, attractive promenade with lots of restaurants and some live‑music venues,     but a more upmarket, relaxed tone than the liveliest parts of Playa de las Américas.<br>     Many condo/aparthotel complexes sit just off the front on relatively flat ground,     and taxis to Hospiten Sur and Quirónsalud Costa Adeje are comfortably under 20 minutes.<br>     Driving distance from Tenerife South Airport (TFS) is about 20 km and typically takes 20–30 minutes by car, depending on traffic.<br>     <br>     <a href="https://www.citiestotravel.com/en/costa-del-adeje-in-tenerife-the-best-tips/" target="_blank">       Detailed Costa Adeje guide (area‑specific article, 2025)     </a>     </div>`)[0];
+                popup_700b8e025b15b57c3261f3fac81f5a38.setContent(html_b67ad64dd3330ec22029c43a9e74e79e);
+            
+        
+
+        marker_010d95e92abeae4a86cf270daa7f54a5.bindPopup(popup_700b8e025b15b57c3261f3fac81f5a38)
+        ;
+
+        
+    
+    
+            marker_010d95e92abeae4a86cf270daa7f54a5.bindTooltip(
+                `<div>
+                     2. Costa Adeje – Fañabé / Playa del Duque
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d6019ffbfdad8c72ef398033afa1b6de = L.marker(
+                [28.0845, -16.736],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var div_icon_d1b418b33a2abd5ae2408ca4e258b001 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 22px;\n                font-weight: bold;\n                color: #2A81CB;\n                text-shadow: 1px 1px 2px white;\n            \"\u003e\n                2\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_d6019ffbfdad8c72ef398033afa1b6de.setIcon(div_icon_d1b418b33a2abd5ae2408ca4e258b001);
+            
+    
+            var marker_010b7ccdffd844034d505073d449d0cc = L.marker(
+                [28.0469, -16.72],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+        var popup_e9159d27d8ef43be482682b903d9be58 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_edaec80de3c4a1dc73c4c149f25f7c43 = $(`<div id="html_edaec80de3c4a1dc73c4c149f25f7c43" style="width: 100.0%; height: 100.0%;">     <b>4. Los Cristianos seafront & central flat area (Tenerife)</b><br>     Flat promenade (Las Vistas/Los Cristianos beaches) with many cafés, bars and some live music;     a few streets back can be relatively quiet while still walkable.<br>     Easily within 20 minutes by taxi to Hospiten Sur, plus multiple clinics and pharmacies in town.<br>     Driving distance from Tenerife South Airport (TFS) is roughly 17–20 km and usually takes about 15–25 minutes by car.<br>     <br>     <a href="https://www.canarias-lovers.com/en/tenerife-travel-tips-guide/#costa-adeje-and-los-cristianos"        target="_blank">       Section on Costa Adeje & Los Cristianos (area subsection in 2024–25 guide)     </a>     </div>`)[0];
+                popup_e9159d27d8ef43be482682b903d9be58.setContent(html_edaec80de3c4a1dc73c4c149f25f7c43);
+            
+        
+
+        marker_010b7ccdffd844034d505073d449d0cc.bindPopup(popup_e9159d27d8ef43be482682b903d9be58)
+        ;
+
+        
+    
+    
+            marker_010b7ccdffd844034d505073d449d0cc.bindTooltip(
+                `<div>
+                     4. Los Cristianos seafront & central
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fb920672a009631e15bd1b910f600a54 = L.marker(
+                [28.0469, -16.72],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var div_icon_23c1af717a8249e0d3fb497ae2642196 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 22px;\n                font-weight: bold;\n                color: #2A81CB;\n                text-shadow: 1px 1px 2px white;\n            \"\u003e\n                4\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_fb920672a009631e15bd1b910f600a54.setIcon(div_icon_23c1af717a8249e0d3fb497ae2642196);
+            
+    
+            var marker_90bd7c03839e7c1b84efa6acb6dcad84 = L.marker(
+                [28.0638, -16.7323],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+        var popup_3487f09271eff078881075f9103f805e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3e13fca5fe01bcbdbca7530a6230cf03 = $(`<div id="html_3e13fca5fe01bcbdbca7530a6230cf03" style="width: 100.0%; height: 100.0%;">     <b>5. Playa de las Américas – central but on the flat (Tenerife)</b><br>     Excellent for walking to many live‑music bars and entertainment spots on flat ground,     especially around the Safari Centre and beachfront.<br>     However, it is livelier and noisier overall; to sleep well you need to pick a building     clearly away from or well‑insulated from the main nightlife streets, and still within reach of Hospiten Sur.<br>     Driving distance from Tenerife South Airport (TFS) is around 18–20 km and typically takes about 20 minutes by car.<br>     <br>     <a href="https://www.visitspain.info/en/canary-islands/tenerife/things-to-do-in-tenerife/#playa-de-las-americas"        target="_blank">       Section focusing on Playa de las Américas (area subsection in official guide)     </a>     </div>`)[0];
+                popup_3487f09271eff078881075f9103f805e.setContent(html_3e13fca5fe01bcbdbca7530a6230cf03);
+            
+        
+
+        marker_90bd7c03839e7c1b84efa6acb6dcad84.bindPopup(popup_3487f09271eff078881075f9103f805e)
+        ;
+
+        
+    
+    
+            marker_90bd7c03839e7c1b84efa6acb6dcad84.bindTooltip(
+                `<div>
+                     5. Playa de las Américas (central flat zone)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a267b30efb84cdd09507a5b9f01eb7b = L.marker(
+                [28.0638, -16.7323],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var div_icon_39e39952d91e3b2c01ae37d4d196c880 = L.divIcon({
+  "html": "\n            \u003cdiv style=\"\n                font-size: 22px;\n                font-weight: bold;\n                color: #2A81CB;\n                text-shadow: 1px 1px 2px white;\n            \"\u003e\n                5\n            \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+        
+    
+                marker_2a267b30efb84cdd09507a5b9f01eb7b.setIcon(div_icon_39e39952d91e3b2c01ae37d4d196c880);
+            
+    
+            var marker_8222420ffaee29adcf54863604b0692f = L.marker(
+                [28.0608, -16.7268],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var icon_487e668ee8a299c357d0615b22d56075 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aef3672704029db67ba410ccb64cd8b3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b01f98e160a2e764c0cfe9fcc9ad8af3 = $(`<div id="html_b01f98e160a2e764c0cfe9fcc9ad8af3" style="width: 100.0%; height: 100.0%;">     <b>Hospiten Sur (Arona)</b><br>     Major private hospital serving south Tenerife (Los Cristianos / Playa de las Américas / Costa Adeje).     </div>`)[0];
+                popup_aef3672704029db67ba410ccb64cd8b3.setContent(html_b01f98e160a2e764c0cfe9fcc9ad8af3);
+            
+        
+
+        marker_8222420ffaee29adcf54863604b0692f.bindPopup(popup_aef3672704029db67ba410ccb64cd8b3)
+        ;
+
+        
+    
+    
+            marker_8222420ffaee29adcf54863604b0692f.bindTooltip(
+                `<div>
+                     Hospiten Sur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8222420ffaee29adcf54863604b0692f.setIcon(icon_487e668ee8a299c357d0615b22d56075);
+            
+    
+            var marker_cfd5c8b93c5aa77f666ee4bff1a569ec = L.marker(
+                [28.0914, -16.7353],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var icon_56595ba79bb429e789dbe5f251d628aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e03140e05d38ff64b93ef01dd4c54267 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a2af4ab2ed4c1ea79f12221d9ea06073 = $(`<div id="html_a2af4ab2ed4c1ea79f12221d9ea06073" style="width: 100.0%; height: 100.0%;">     <b>Quirónsalud Costa Adeje</b><br>     Private hospital near Costa Adeje resorts, within a short taxi ride of Fañabé / Del Duque.     </div>`)[0];
+                popup_e03140e05d38ff64b93ef01dd4c54267.setContent(html_a2af4ab2ed4c1ea79f12221d9ea06073);
+            
+        
+
+        marker_cfd5c8b93c5aa77f666ee4bff1a569ec.bindPopup(popup_e03140e05d38ff64b93ef01dd4c54267)
+        ;
+
+        
+    
+    
+            marker_cfd5c8b93c5aa77f666ee4bff1a569ec.bindTooltip(
+                `<div>
+                     Quirónsalud Costa Adeje
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cfd5c8b93c5aa77f666ee4bff1a569ec.setIcon(icon_56595ba79bb429e789dbe5f251d628aa);
+            
+    
+            var marker_50f2cc06bd1e3c96fd993bda3d43cd06 = L.marker(
+                [28.0443, -16.5725],
+                {
+}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+            var icon_f8cb8f5fc54b2b51a4f4a2a0ee016d2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkpurple",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5f03ea6f3a5175ce5f579b500798f59 = L.popup({
+  "maxWidth": 260,
+});
+
+        
+            
+                var html_5833f8402694f0b203d9d19b8249b656 = $(`<div id="html_5833f8402694f0b203d9d19b8249b656" style="width: 100.0%; height: 100.0%;">     <b>Tenerife South Airport (TFS)</b><br>     Main international airport for south Tenerife; most likely arrival point from Vancouver via a European hub.     </div>`)[0];
+                popup_c5f03ea6f3a5175ce5f579b500798f59.setContent(html_5833f8402694f0b203d9d19b8249b656);
+            
+        
+
+        marker_50f2cc06bd1e3c96fd993bda3d43cd06.bindPopup(popup_c5f03ea6f3a5175ce5f579b500798f59)
+        ;
+
+        
+    
+    
+            marker_50f2cc06bd1e3c96fd993bda3d43cd06.bindTooltip(
+                `<div>
+                     Tenerife South Airport (TFS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_50f2cc06bd1e3c96fd993bda3d43cd06.setIcon(icon_f8cb8f5fc54b2b51a4f4a2a0ee016d2a);
+            
+    
+            var rectangle_e9fc56c26763898b6faf51c853bc128e = L.rectangle(
+                [[28.04, -16.745], [28.095, -16.71]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ada12abf16f6686f65fc05aeba6c4f2);
+        
+    
+        var popup_ad86b1c050a8d9bcba7b47bd19435f98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8584c057831c2e389cd3d05cab9e2ea2 = $(`<div id="html_8584c057831c2e389cd3d05cab9e2ea2" style="width: 100.0%; height: 100.0%;">Priority flat seafront zone: Los Cristianos – Las Américas – Costa Adeje.</div>`)[0];
+                popup_ad86b1c050a8d9bcba7b47bd19435f98.setContent(html_8584c057831c2e389cd3d05cab9e2ea2);
+            
+        
+
+        rectangle_e9fc56c26763898b6faf51c853bc128e.bindPopup(popup_ad86b1c050a8d9bcba7b47bd19435f98)
+        ;
+
+        
+    
+</script>
+</html>
