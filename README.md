@@ -3,7 +3,7 @@
 - [Tenerife priority areas map](https://jfolske.github.io/canaries_maps/tenerife_priority_areas.html)
 - [Gran Canaria priority areas map](https://jfolske.github.io/canaries_maps/gran_canaria_priority_areas.html)
 
-# Canaries Maps ReadMe: Interactive HTML maps of Gran Canaria and Tenerife priority areas for exploration
+## Canaries Maps ReadMe: Interactive HTML maps of Gran Canaria and Tenerife priority areas for exploration
 What the project does: 
    Shows areas/neighborhoods to consider for a retiree expat couple in the Canary Islands
 Why the project is useful: 
