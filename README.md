@@ -1,4 +1,4 @@
-# canaries_maps
+# Canaries Maps ReadMe
 Interactive HTML maps of Gran Canaria and Tenerife priority areas for exploration
 What the project does: Shows areas/neighborhoods to consider for a retiree expat couple in the Canary Islands
 Why the project is useful: Includes a brief summary of each area/neighborhood, distance/time drive to airport, link to in-depth current article
